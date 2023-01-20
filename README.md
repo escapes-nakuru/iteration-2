@@ -12,7 +12,7 @@ Cada uno de los `boardgames` tendrá la siguiente estructura:
   players: Number, 
   releaseYear: Number, 
   avgTime: Number, // tiempo medio de partida en minutos
-  minAge: Number,
+  minAge: Number, // edad mínima para jugar
   image: String,
   owner: ObjectId de User, //¿quién está loguinado en el momento de añadir el juego de mesa?
 }
